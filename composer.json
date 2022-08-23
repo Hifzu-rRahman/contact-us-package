@@ -1,0 +1,26 @@
+{
+    "name": "hifzu/contact",
+    "description": "This will send email to admin.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hifzurrahman",
+            "email": "hifzu.noorisys@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hifzu\\Contact\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hifzu\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
